@@ -21,21 +21,8 @@ import org.springframework.web.client.RestTemplate;
 @OpenAPIDefinition(info = @Info(title = "User APIS", version = "1.0", description = "User Management APIS."))
 public class UserApplication {
 
-    @Value("${spring.mail.username:NOT_SET}")
-    private String mailUsername;
-
-    @Value("${spring.mail.password:NOT_SET}")
-    private String mailPassword;
-
-    @PostConstruct
-    public void logMailConfig() {
-        System.out.println("==== MAIL CONFIG DEBUG ====");
-        System.out.println("spring.mail.username = " + mailUsername);
-        System.out.println("spring.mail.password = " + mailPassword);
-        System.out.println("===========================");
-    }
-
 	public static void main(String[] args) {
+		System.out.println("User_Math is start to deploying=========================================");
 		SpringApplication.run(UserApplication.class, args);
 	}
 
