@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Config_Math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Eureka_Math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Gateway_Math" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Math_Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/User_Math" vcs="Git" />
+  </component>
+</project>
