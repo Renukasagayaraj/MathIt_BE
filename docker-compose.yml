@@ -22,7 +22,7 @@ services:
     ports:
       - "8085:8085"
     healthcheck:
-      test: [ "CMD-SHELL", "wget -q --spider http://config-server:8085/application/default || exit 1" ]
+      test: [ "CMD-SHELL", "wget -q --spider https://config-math.onrender.com/application/default || exit 1" ]
       interval: 30s
       timeout: 10s
       retries: 3
